@@ -19,6 +19,7 @@ Route::get('/', function () {
 
 Route::get('/notes', [App\Http\Controllers\NotesController::class, 'notes'])->name('notes');
 Route::get('/delete/{id}', [App\Http\Controllers\NotesController::class, 'delete'])->name('delete');
+Route::get('/search}', [App\Http\Controllers\NotesController::class, 'search'])->name('search');
 
 Route::get('/add', function () {
     return view('add');

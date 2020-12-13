@@ -4,6 +4,13 @@
     <h1 class="text-center">Notes</h1>
     <div class="row justify-content-center">
         <div class="col-md-5">
+            <form method="GET" action="{{ route('search') }}">
+                <div style="display: flex; flex-direction:row">
+                    <input class="form-control" type="text" name="title">
+                    <button type="submit" class="btn btn-info" >Find</button>
+                </div>
+            </form>
+            <br>
             @foreach($notes as $note)
                 <div class="card">
                     <h4 class="card-header">{{ $note->title }}</h4>
