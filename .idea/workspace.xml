@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="47ed959e-aac6-4392-8a0b-70adbd875a83" name="Default Changelist" comment="Added files from gitignore">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpLab/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/phpLab/resources/views/layouts/app.blade.php" afterDir="false" />
-    </list>
+    <list default="true" id="47ed959e-aac6-4392-8a0b-70adbd875a83" name="Default Changelist" comment="Small fix" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -156,6 +153,7 @@
       <workItem from="1607922043335" duration="773000" />
       <workItem from="1607953380955" duration="182000" />
       <workItem from="1608142390908" duration="1555000" />
+      <workItem from="1608227887730" duration="270000" />
     </task>
     <task id="LOCAL-00001" summary="Small fix">
       <created>1607818228485</created>
@@ -178,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607822341378</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Small fix">
+      <created>1608227942120</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608227942120</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,9 +202,9 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Small fix" />
     <MESSAGE value="Added search" />
     <MESSAGE value="Added files from gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added files from gitignore" />
+    <MESSAGE value="Small fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Small fix" />
   </component>
 </project>
