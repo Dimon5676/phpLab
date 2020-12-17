@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="47ed959e-aac6-4392-8a0b-70adbd875a83" name="Default Changelist" comment="Small fix">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/phpLab.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phpLab.iml" afterDir="false" />
+    <list default="true" id="47ed959e-aac6-4392-8a0b-70adbd875a83" name="Default Changelist" comment="Added files from gitignore">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpLab/app/Http/Controllers/NotesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/phpLab/app/Http/Controllers/NotesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpLab/resources/views/notes.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/phpLab/resources/views/notes.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpLab/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/phpLab/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpLab/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/phpLab/resources/views/layouts/app.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true">
     <pharConfigPath>$PROJECT_DIR$/phpLab/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -156,7 +152,10 @@
       <option name="presentableId" value="Default" />
       <updated>1607798085307</updated>
       <workItem from="1607798087271" duration="15147000" />
-      <workItem from="1607819124880" duration="2844000" />
+      <workItem from="1607819124880" duration="3178000" />
+      <workItem from="1607922043335" duration="773000" />
+      <workItem from="1607953380955" duration="182000" />
+      <workItem from="1608142390908" duration="1555000" />
     </task>
     <task id="LOCAL-00001" summary="Small fix">
       <created>1607818228485</created>
@@ -165,14 +164,42 @@
       <option name="project" value="LOCAL" />
       <updated>1607818228485</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added search">
+      <created>1607822270639</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607822270639</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added files from gitignore">
+      <created>1607822341378</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607822341378</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Small fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Small fix" />
+    <MESSAGE value="Added search" />
+    <MESSAGE value="Added files from gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added files from gitignore" />
   </component>
 </project>
