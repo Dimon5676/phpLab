@@ -17,13 +17,14 @@
                     <h5 class="card-body">
                         <p>{{ $note->text }}</p>
                     </h5>
-                    @auth
-                        @if(Auth::user()->email == "admin@mail.ru")
-                            <div class="card-footer">
+                    <div class="card-footer">
+                        <a href="{{ route('note', $note->id) }}" title="note" class="btn btn-info">Show comments</a>
+                        @auth
+                            @if(Auth::user()->email == "admin@mail.ru")
                                 <a href="{{ route('delete', $note->id) }}" title="delete" class="btn btn-danger">Delete</a>
-                            </div>
-                        @endif
-                    @endauth
+                            @endif
+                        @endauth
+                    </div>
                 </div>
                 <br>
             @endforeach
