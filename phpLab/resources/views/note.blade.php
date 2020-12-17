@@ -46,7 +46,7 @@
                 <hr>
                 <form method="POST" action="{{ route('comment') }}">
                     @csrf
-                    <input type="hidden" id="author" name="author" value="{{ Auth::user()->name }}">
+                    <input type="hidden" id="author" name="author" value="{{ Auth::user()->name }} ({{ Auth::user()->email }})">
                     <input type="hidden" id="note_id" name="note_id" value="{{ $note->id }}">
                     <input maxlength="255" required class="form-control" id="text" name="text" placeholder="Enter your comment here...">
                     <br>
